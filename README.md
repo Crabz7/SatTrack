@@ -1,7 +1,7 @@
 # SatTrack
 <img width="1439" height="755" alt="image" src="https://github.com/user-attachments/assets/56d68f97-fda5-4442-b9d3-f6f4d2de25c4" />
 
-SatTrack is a  python-based satellite tracking program.
+SatTrack is a python-based satellite tracking program, that uses [pyorbital](https://github.com/pytroll/pyorbital) for most of it's features. It uses a GUI made with tkinter to make user interaction easier, than had it just been a console. It also uses [cartopy](https://github.com/SciTools/cartopy) and [matplotlib](https://github.com/matplotlib/matplotlib), to create a map with the satellites projected on top.
 
 ## Why does this exist?
 There are many other programs that do the exact same plus more. They are even more stable.
@@ -15,6 +15,7 @@ Therefore, the purpose of this program is to possibly help someone, who faces th
 4. Done, now you can execute the main.exe in the Scripts folder.
 
 ## Setup
+**ATTENTION: PLEASE REPLACE THE INCLUDED TLE FILE. IT IS ONLY FOR DEMO PURPOSES AND IT IS HIGHLY RECOMMMENDED TO PROVIDE YOUR OWN UPDATED TLE FILES AS TO AVOID CONFUSION.**
 1. Once the program has started for the first time (or when a settings.db file isn't present), the user will be prompted to enter their observing latitude and longitude.
 2. .tle files can be placed in the TLEdata folder. Alternatively, the folder which the program references for .tle files can be changed in the program with "Set TLE Folder" under "File" in the top toolbar.
 
