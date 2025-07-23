@@ -18,14 +18,26 @@ Therefore, the purpose of this program is to possibly help someone, who faces th
 2. .tle files can be placed in the TLEdata folder. Alternatively, the folder which the program references for .tle files can be changed in the program with "Set TLE Folder" under "File" in the top toolbar.
 
 ## Usage
-- To track a satellite, select it in the left sidebar. Do this by typing the name of the satellite you would like to track in the entry which says "Enter satellite". As you do, suggested satellites, which have been pulled from your .tle files, will show under the entry, and you can click on one, to insert it into the entry. This way you are sure to have matched the satellites name as specified in the .tle file it was pulled from. Now press "Select" and more of the sidebar should reveal itself. On the map, the follow can now be seen:
-1. Blue dot: The obsering location
+### Select satellite
+To track a satellite, select it in the left sidebar. Do this by typing the name of the satellite you would like to track in the entry which says "Enter satellite". As you do, suggested satellites, which have been pulled from your .tle files, will show under the entry, and you can click on one, to insert it into the entry. This way you are sure to have matched the satellites name as specified in the .tle file it was pulled from. Now press "Select" and more of the sidebar should reveal itself.
+
+### Plot satellite path
+To plot the path of a satellite, input how many hours ahead you would like to plot the path, and press "Plot Path". A red line should then appear on the map, indicating the satellite's future path within the specified time frame.
+
+### Get upcoming satellite passes
+To see the upcoming passes of a satellite, specify how many hours ahead you would like to see passes, and the minimum elevation of a pass for it to be included. For this feature, the specified latitude and longitude saved in the "settings.db" file will be used. Then press "Predict" and a table should now pop up containing information about AOS, LOS and MAX EL.
+
+### Menubar
+At the top of the window, a menubar can be seen containing the following:
+- File: Includes TLE options (Set TLE Folder, Inspect TLE) aswell as an "Exit" button.
+- Preferences: Includes options to set the observing latitude and longitude.
+
+### Read the map
+On the map, the following can be seen:
+1. Blue dot: The obsering location.
 2. Red dot: Selected satellite's current position.
 3. Blue outline: Selected satellite's field of view. Ergo the area where the satellite is over the horizon.
-
-- To plot the path of a satellite, input how many hours ahead you would like to plot the path, and press "Plot Path". A red line should then appear on the map, indicating the satellite's future path within the specified time frame.
-  
-- To see the upcoming passes of a satellite, specify how many hours ahead you would like to see passes, and the minimum elevation of a pass for it to be included. Then press "Predict" and a table should now pop up containing information about AOS, LOS and MAX EL.
+4. Red line: Selected satellite's path.
 
 ## Requirements
 The main.exe from the releases already has all the needed python libraries bundled, but if you want to run the code in a virtual environment, these are the libraries you will need:
