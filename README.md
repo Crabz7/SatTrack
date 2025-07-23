@@ -1,5 +1,6 @@
 # SatTrack
-## What is SatTrack?
+<img width="1439" height="755" alt="image" src="https://github.com/user-attachments/assets/56d68f97-fda5-4442-b9d3-f6f4d2de25c4" />
+
 SatTrack is a  python-based satellite tracking program.
 
 ## Why does this exist?
@@ -26,6 +27,8 @@ To plot the path of a satellite, input how many hours ahead you would like to pl
 
 ### Get upcoming satellite passes
 To see the upcoming passes of a satellite, specify how many hours ahead you would like to see passes, and the minimum elevation of a pass for it to be included. For this feature, the specified latitude and longitude saved in the "settings.db" file will be used. Then press "Predict" and a table should now pop up containing information about AOS, LOS and MAX EL.
+
+<img width="870" height="420" alt="image" src="https://github.com/user-attachments/assets/94a42d93-645c-45c0-9042-ca1a0c8d6df3" />
 
 ### Menubar
 At the top of the window, a menubar can be seen containing the following:
