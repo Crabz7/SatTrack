@@ -40,14 +40,16 @@ On the map, the following can be seen:
 4. Red line: Selected satellite's path.
 
 ## Requirements
-The main.exe from the releases already has all the needed python libraries bundled, but if you want to run the code in a virtual environment, these are the libraries you will need:
-1. numpy
+The main.exe from the releases already has all the requirements bundled, but if you want to run the code with Python, these are the extra's you will need:
+1. Python 3.13.5
+   - The only verison of Python that has been tested with the program.
+2. numpy
    - Currently only there for future expansion.
-2. matplotlib
+3. matplotlib
    - Allows for plotting graphs and placing markers etc.
-3. pyorbital
+4. pyorbital
    - Does all the important calculations for the satellite position, passes etc.
-4. cartopy
+5. cartopy
    - Used to draw the map and does the math for map projections with matplotlib.
 
 Here are all the imports from main.py listed:
