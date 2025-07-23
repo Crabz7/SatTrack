@@ -9,10 +9,9 @@ SatTrack was created for the sole purpose of better interaction with external di
 Therefore, the purpose of this program is to possibly help someone, who faces the same issue as me.
 
 ## Installation
-1. Make sure you have the latest version of Python installed.
-2. Download .zip file under /releases.
-3. Unzip. Make sure to keep the file structure intact if you want the example weather.tle file to work out-of-the-box.
-4. Done, now you can execute the main.exe in the Scripts folder.
+1. Download .zip file under /releases.
+2. Unzip. Make sure to keep the file structure intact if you want the example weather.tle file to work out-of-the-box.
+3. Done, now you can execute the main.exe in the Scripts folder.
 
 ## Setup
 **ATTENTION: PLEASE REPLACE THE INCLUDED TLE FILE. IT IS ONLY FOR DEMO PURPOSES AND IT IS HIGHLY RECOMMMENDED TO PROVIDE YOUR OWN UPDATED TLE FILES AS TO AVOID CONFUSION.**
