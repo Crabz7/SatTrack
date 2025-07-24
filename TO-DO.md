@@ -1,5 +1,8 @@
 # TO-DO LIST
-Things i would like to add/fix in the future
+Things i would like to add/fix in the future. Here's how to read this file:
+- Not begun: Normal
+- Currently working on it: **Bold**
+- Done: ~~Strikethrough~~
 ## Features/Changes
 - [ ] Change name from SatTrack since it's a common name for software (sugggested by kc2syk on Reddit)
 - [ ] Add tle download service (suggested by Feuerwerko on Reddit)
@@ -11,3 +14,4 @@ Things i would like to add/fix in the future
 - [ ] Support for commonly used radio control protocols (suggested by kc2syk on Reddit)
 - [ ] Quality preferences for satellite path line resolution and satellite position refresh rate etc...
 ## Fixes
+- [ ] **Restructure and split the main.py before its too late**
